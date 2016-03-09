@@ -1,0 +1,2 @@
+# cookiesession
+这是一个异步的cookie和session管理模块，session是基于redis存储于内存当中
