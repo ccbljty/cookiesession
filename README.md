@@ -6,6 +6,18 @@
 
 var Cookiesession = require('./cookiesession');
 
+# cookie的使用
+
+// 设置cookie,option为一个对象，属性有expires、path、domain、httpOnly和secure
+
+cookie.setCookie('key','value',option);
+
+// 获取cookie,返回一个对象
+
+cookie.getCookie();
+
+# session的使用
+
 // 创建接口
 
 var session =  new Cookiesession(req,res);
